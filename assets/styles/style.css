@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +14,26 @@
     overflow: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
+.logo{
+    font-family:'Pacifico',sans-serif;
+    color: #f35d96;
+}
+
+.logo-white {
+    font-family:'Pacifico',sans-serif;
+    color: #fff;
+    font-size: 4rem;
+}
+
 main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 6rem;
 }
 
 .measure {
@@ -22,11 +42,6 @@ main {
 }
 
 /* Estilos da navegação */
-nav {
-    background-color: #FFF;
-    border-bottom: 1px solid #EEE;
-    padding: 10px;
-}
   
 nav ul {
     list-style: none;
@@ -37,28 +52,45 @@ nav ul {
 }
   
 nav li {
-    margin: 0;
+    margin: 1rem;
     padding: 1rem;
 }
   
 nav a {
     color: #333;
-    font-size: 18px;
+    font-size: 1rem;
     text-decoration: none;
 }
 
 nav a:hover {
-    font-weight: bold;
+    border-bottom: .15rem solid #EEE;
 }
+
+.button {
+    width: 12rem;
+    height: 3rem;
+    background-color: #f35d96;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #d85084;
+}
+
   
 .banner {
     width: 100%;
     height: 40rem;
-    background-color: #349294;
+    background-color: #c24776;
     color: #FFF;
     display: flex;   
     justify-content: center;
     align-items: center; 
+    border-radius: 0rem 0rem 15rem 0rem;
 }
 
 .container {
@@ -81,16 +113,17 @@ nav a:hover {
 }
 
 .button-direct {
-    width: 20rem;
+    width: 24rem;
     height: 4rem;
-    background-color: #3d2562;
+    background-color: #913055;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 2rem
 }
 
 .button-direct:hover {
-    background-color: #5e3c92;
+    background-color: #d44f82;
 }
 
 .mission {
