@@ -41,6 +41,10 @@ nav a {
     font-size: 18px;
     text-decoration: none;
 }
+
+nav a:hover {
+    font-weight: bold;
+}
   
 .banner {
     width: 100%;
@@ -59,6 +63,11 @@ nav a {
     gap: 2rem;
 }
 
+.container a {
+    text-decoration: none;
+    color: white;
+}
+
 .divisor {
     width: 25rem;
     height: .1rem;
@@ -72,4 +81,8 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.button-direct:hover {
+    background-color: #5e3c92;
 }
