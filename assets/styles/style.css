@@ -287,6 +287,13 @@ nav a:hover {
     color: #fff;
 }
 
+.contact {
+    margin-top: 4rem;
+    width: 100%;
+    background-color: #b94270;
+    color: #fff;
+}
+
 @media (min-width: 768px) {
     * {
         margin: 0;
@@ -559,6 +566,13 @@ nav a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
+        color: #fff;
+    }
+
+    .contact {
+        margin-top: 4rem;
+        width: 100%;
+        background-color: #b94270;
         color: #fff;
     }
 }
