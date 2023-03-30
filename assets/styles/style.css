@@ -266,8 +266,25 @@ nav a:hover {
     color: #fff;
 }
 
-.donation {
-    padding-top: 4rem;
+.donation-container {
+    padding-top: 2rem;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.donation-card {
+    width: 20rem;
+    height: 24rem;
+    background-color: #d44f82;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -524,8 +541,24 @@ nav a:hover {
         font-size: 1.2rem;
         color: #fff;
     }
-    
-    .donation {
-        padding-top: 4rem;
+
+    .donation-container {
+        padding-top: 2rem;
+        margin: auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .donation-card {
+        width: 20rem;
+        height: 24rem;
+        background-color: #d44f82;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
     }
 }
