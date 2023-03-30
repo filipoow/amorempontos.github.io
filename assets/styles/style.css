@@ -294,6 +294,14 @@ nav a:hover {
     color: #fff;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
 @media (min-width: 768px) {
     * {
         margin: 0;
@@ -574,5 +582,13 @@ nav a:hover {
         width: 100%;
         background-color: #b94270;
         color: #fff;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
     }
 }
