@@ -285,3 +285,34 @@ nav a:hover {
     width: 20rem;
     text-align: justify;
 } 
+
+.help {
+    margin-top: 4rem;
+    width: 100%;
+    height: 20rem;
+    background-color: #d44f82;
+}
+
+.help-divisor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.help-about {
+    padding-top: 4rem;
+    width: 30rem;
+    text-align: justify;
+}
+
+.help-about h1 {
+    font-size: 8rem;
+}
+
+.help-about p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.donation {
+    padding-top: 4rem;
+}
