@@ -26,7 +26,7 @@ a {
 .logo-white {
     font-family:'Pacifico',sans-serif;
     color: #fff;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 main {
@@ -34,7 +34,7 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    height: 2rem;
+    height: 4rem;
 }
 
 .measure {
