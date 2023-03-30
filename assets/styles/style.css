@@ -34,7 +34,7 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    height: 4rem;
+    height: 6rem;
 }
 
 .measure {
@@ -50,15 +50,13 @@ nav {
 
 nav ul {
     list-style: none;
-    margin: 0;
-    padding: 2rem;
     display: flex;
     justify-content: space-around;
 }
   
 nav li {
-    margin: 1rem;
-    padding: 1rem;
+    margin: .2rem;
+    padding: .4rem;
 }
   
 nav a {
@@ -158,7 +156,10 @@ nav a:hover {
     display: flex;
     align-items: center;
     gap: 1rem;
+    border-radius: 2rem;
 }
+
+
 
 .project-card img {
     width: 2.5rem;
