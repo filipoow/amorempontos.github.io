@@ -123,6 +123,12 @@ nav a:hover {
     text-align: justify;
 }
 
+.container-second {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .container a {
     text-decoration: none;
     color: white;
@@ -194,6 +200,12 @@ nav a:hover {
     border-radius: 3rem;
     background-color: #b94270;
     color: #fff;
+    overflow: hidden;
+}
+
+.desc-photo {
+    margin-top: 0rem;
+    width: 40rem;
 }
 
 .mission {
@@ -414,6 +426,11 @@ footer {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+    }
+
+    .desc-photo {
+        margin-top: 10rem;
+        width: 100rem;
     }
     
     .container a {
