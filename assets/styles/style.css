@@ -387,7 +387,7 @@ footer {
       
     .banner {
         width: 100%;
-        height: 12rem;
+        height: 20rem;
         background-color: #b94270;
         color: #FFF;
         display: flex;   
@@ -404,9 +404,16 @@ footer {
         margin: auto;
         width: 80%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 2rem;
         text-align: justify;
+    }
+
+    .container-second {
+        width: 50rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
     
     .container a {
@@ -486,11 +493,12 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 70rem;
         height: 20rem;
         border-radius: 3rem;
         background-color: #b94270;
         color: #fff;
+        overflow: hidden;
     }
     
     .mission {
