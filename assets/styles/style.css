@@ -412,8 +412,8 @@ footer {
     .container-second {
         width: 50rem;
         display: flex;
+        justify-content: space-between;
         flex-direction: column;
-        gap: 2rem;
     }
     
     .container a {
